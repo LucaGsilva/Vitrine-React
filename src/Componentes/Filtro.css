@@ -1,0 +1,41 @@
+.Filtro {
+    display: inline-block;
+    overflow: auto;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 19%;
+    height: 73vh;
+    background-color: rgb(7, 89, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.Filtro::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+.Filtro::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+}
+
+.ListaTipo {
+    font-weight: lighter;
+    padding-left: 5%;
+}
+
+.Lista {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.Itens {
+    margin: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.Itens:hover {
+    background-color: rgba(255, 255, 255, 0.253);
+}

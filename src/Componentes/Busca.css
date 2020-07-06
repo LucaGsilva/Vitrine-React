@@ -1,0 +1,54 @@
+
+.BuscaNav {
+    overflow: hidden;
+    background-color: rgb(7, 89, 184);
+    background-color: rgb(32, 17, 119);
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.Categoria {
+    cursor: pointer;
+}
+
+.Search {
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Links{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.Pesquisa {
+    display: flex;
+    width: 30%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Busca {
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 46%;
+    height: 20px;
+}
+
+.nameBusca {
+    border-radius: 5px;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+.nameBusca:hover {
+    cursor: pointer;
+    background-color: rgba(21, 170, 46, 0.932);
+}

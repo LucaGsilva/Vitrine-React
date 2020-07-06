@@ -1,0 +1,42 @@
+.Nav{
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(7, 89, 184);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    margin-top: -5%;
+}
+
+#Logo {
+    margin-left: 10%;
+    max-width: 22px;
+    cursor: pointer;
+}
+
+.Carrinho {
+    margin-right: 30px;
+    max-width: 22px;
+    cursor: pointer;
+}
+
+.Titulo {
+    flex: 3;
+    padding-left: 4%;
+    text-align: center;
+}
+
+.Login {
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-right: 10%;
+    background-color: rgba(167, 167, 167, 0.5);
+}
+
+.Login:hover {
+    cursor: pointer;
+    background-color: rgba(21, 170, 46, 0.932);
+}

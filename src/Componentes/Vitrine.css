@@ -1,0 +1,10 @@
+
+.Vitrine{
+    display: flex;
+    margin-top: -35%;
+    margin-left: 22%;
+    width: 75%;
+    height: 72vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
